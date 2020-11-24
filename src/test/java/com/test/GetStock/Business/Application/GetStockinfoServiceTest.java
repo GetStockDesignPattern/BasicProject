@@ -179,7 +179,7 @@ class GetStockinfoServiceTest {
 	}
 
 	@Test
-	@DisplayName("최저가와 최고가가 갱신된 경우 테스트")
+	@DisplayName("최저가와 최고가가 갱신된 경우")
 	public void renewMinandMax() {
 		StockResponse[] test = new StockResponse[8];
 		for (int i = 0; i < test.length; i++) {
