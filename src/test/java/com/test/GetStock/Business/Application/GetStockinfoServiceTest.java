@@ -193,7 +193,7 @@ class GetStockinfoServiceTest {
 
 
 	@Test
-	@DisplayName("전체")
+	@DisplayName("전체 테스트")
 	public void allarr() {
 		Profit result = getStockinfoService.getprofit("testticker",testDataarr);
 		assertEquals(8f, result.getMaxprofit());
