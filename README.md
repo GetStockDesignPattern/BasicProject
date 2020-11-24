@@ -1,4 +1,4 @@
-# getMaxProfitREST
+# StockProfitREST
 
 ### How To Use
 
